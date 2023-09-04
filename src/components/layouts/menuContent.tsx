@@ -26,7 +26,7 @@ const generateMenuItems = (menuItem: menuItems[]) => {
 const menuContent = () => {
   return (
     <Sider width={200} style={{ background: 'white' }}>
-        <Menu mode="inline">
+        <Menu mode="inline" defaultOpenKeys={['farmOverview']}>
             {generateMenuItems(menuData)}
         </Menu>
     </Sider>

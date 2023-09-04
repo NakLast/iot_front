@@ -18,7 +18,7 @@ const menuData: menuItems[] =[
         path: '',
         children: [
             {
-                key: 'location A',
+                key: 'overview',
                 label: 'Overview',
                 path: '/',
                 component: <FarmOverview />
