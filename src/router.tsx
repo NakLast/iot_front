@@ -6,7 +6,7 @@ export interface menuItems {
     key: string
     icon?: any
     label: string
-    path?: string
+    path: string
     component?: any
     children?: menuItems[]
 }
